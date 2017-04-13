@@ -12,6 +12,7 @@ sample collection for various UI frameworks using .NET Core
 | Windows Forms | | X | X | 4,5 MB | 4,9 MB |
 | DevZH.UI | X | | | 3,5 MB | 3,6 MB |
 | GTKSharp | | X | X | 10,4 MB | - |
+| AspNetCore | X | | | - | - |
 
 *\* legacy project: does not use the new .csproj format*
 
@@ -58,6 +59,12 @@ https://www.gtk.org/download/windows.php
 
 ![Screenshot](GTKSharp/screenshot.png)
 
+### AspNetCore
+
+This just launches a web server and uses a javascript callback.
+It's not exactly a UI framework, it requires a web browser to run.
+
+![Screenshot](AspNetCore/screenshot.png)
 
 ## Additional frameworks to explore
 

@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <textarea id="myText" rows="4" cols="50">Initial Value</textarea><br/>
+    <button onclick="callNetCore()">Call .NET Core</button> 
+
+    <script>
+        function callNetCore() {
+            fetch('/api/values')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById("myText").value = data;
+                });
+        }
+    </script>
+</body>
+</html>

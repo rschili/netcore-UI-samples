@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.0
+VisualStudioVersion = 15.0.26403.3
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console", "Console\Console.csproj", "{27783108-1AB3-4823-84E7-06596243BAE8}"
 EndProject
@@ -15,6 +15,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevZH.UI", "DevZH.UI\DevZH.UI.csproj", "{FC04BC5E-7EE0-433D-A28E-ABA41D9129D1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GtkSharp", "GtkSharp\GtkSharp.csproj", "{D0460782-2B48-4E40-A2E8-A57ACDE38E2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore", "AspNetCore\AspNetCore.csproj", "{18802842-A154-4B0A-A8B5-0D084B3AB5E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -110,6 +112,18 @@ Global
 		{D0460782-2B48-4E40-A2E8-A57ACDE38E2C}.Release|x64.Build.0 = Release|Any CPU
 		{D0460782-2B48-4E40-A2E8-A57ACDE38E2C}.Release|x86.ActiveCfg = Release|Any CPU
 		{D0460782-2B48-4E40-A2E8-A57ACDE38E2C}.Release|x86.Build.0 = Release|Any CPU
+		{18802842-A154-4B0A-A8B5-0D084B3AB5E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18802842-A154-4B0A-A8B5-0D084B3AB5E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18802842-A154-4B0A-A8B5-0D084B3AB5E7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{18802842-A154-4B0A-A8B5-0D084B3AB5E7}.Debug|x64.Build.0 = Debug|Any CPU
+		{18802842-A154-4B0A-A8B5-0D084B3AB5E7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{18802842-A154-4B0A-A8B5-0D084B3AB5E7}.Debug|x86.Build.0 = Debug|Any CPU
+		{18802842-A154-4B0A-A8B5-0D084B3AB5E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18802842-A154-4B0A-A8B5-0D084B3AB5E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18802842-A154-4B0A-A8B5-0D084B3AB5E7}.Release|x64.ActiveCfg = Release|Any CPU
+		{18802842-A154-4B0A-A8B5-0D084B3AB5E7}.Release|x64.Build.0 = Release|Any CPU
+		{18802842-A154-4B0A-A8B5-0D084B3AB5E7}.Release|x86.ActiveCfg = Release|Any CPU
+		{18802842-A154-4B0A-A8B5-0D084B3AB5E7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
