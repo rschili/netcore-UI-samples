@@ -15,7 +15,7 @@
   </ItemGroup>
   
   <ItemGroup>
-    <ProjectReference Include="..\_Library\_Library.csproj" />
+    <ProjectReference Include="..\NetCoreLibrary\NetCoreLibrary.csproj" />
   </ItemGroup>
 
 </Project>

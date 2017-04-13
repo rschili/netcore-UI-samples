@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            string message = _Library.NetCoreClass.DoSomething();
+            string message = NetCoreLibrary.NetCoreClass.DoSomething();
             System.Console.WriteLine(message);
             System.Console.ReadLine();
         }

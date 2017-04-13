@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "CoreWPFTest": {
-      "commandName": "Executable",
-      "executablePath": "$(OutputPath)$(ProjectName).exe"
-    }
-  }
-}

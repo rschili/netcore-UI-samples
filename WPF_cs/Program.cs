@@ -14,17 +14,17 @@ namespace WPF_cs
             Width = 300;
             Height = 300;
 
-            var panel = new StackPanel();
-            panel.Orientation = Orientation.Vertical;
+            var panel = new DockPanel();
+            panel.LastChildFill = true;
             Content = panel;
 
-            var button1 = new Button();
-            button1.Content = "Call .NET Core";
-            button1.Height = 23;
-            panel.Children.Add(button1);
+            var button = new Button();
+            button.Content = "Call .NET Core";
+            button.Height = 23;
+            button.SetValue(DockPanel.DockProperty, Dock.Bottom);
+            panel.Children.Add(button);
 
             var textBox = new TextBox();
-            textBox.Height = 200;
             panel.Children.Add(textBox);
 
             var binding = new Binding("Text");
@@ -34,7 +34,7 @@ namespace WPF_cs
 
             binding = new Binding("CallNetCoreCommand");
             binding.Mode = BindingMode.OneWay;
-            BindingOperations.SetBinding(button1, Button.CommandProperty, binding);
+            BindingOperations.SetBinding(button, Button.CommandProperty, binding);
             }
         }
 
@@ -62,7 +62,7 @@ namespace WPF_cs
 
         private void DoCallNetCore(object parameter)
             {
-            Text = _Library.NetCoreClass.DoSomething();
+            Text = NetCoreLibrary.NetCoreClass.DoSomething();
             }
         }
 
