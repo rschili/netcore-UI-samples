@@ -5,6 +5,10 @@
     <TargetFramework>netcoreapp1.1</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <Prefer32Bit>False</Prefer32Bit>
+  </PropertyGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\NetCoreLibrary\NetCoreLibrary.csproj" />
   </ItemGroup>

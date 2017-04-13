@@ -3,14 +3,15 @@ sample collection for various UI frameworks using .NET Core
 
 ## Overview
 
-|    Project    |    NetCore    |   Full .Net   |legacy project*|
-| --- | :-: | :-: | :-: |
-| NetCoreLibrary | X | | |
-| Console | X | | |
-| WPF_cs | | X | |
-| WPF_xaml | | X | X |
-| Windows Forms | | X | X |
-| DevZH.UI | X | | |
+|    Project    |    NetCore    |   Full .Net   |legacy project*| Memory consumption 64bit | "32bit |
+| --- | :-: | :-: | :-: | --: | --: |
+| NetCoreLibrary | X | | | |
+| Console | X | | | 2,6 MB | 2,6 MB |
+| WPF_cs | | X | | 15,8 MB | 11,8 MB |
+| WPF_xaml | | X | X | 16,5 MB | 13,2 MB
+| Windows Forms | | X | X | 4,5 MB | 4,9 MB |
+| DevZH.UI | X | | | 3,5 MB | 3,6 MB |
+| GTKSharp | | X | X | 10,4 MB | - |
 
 *\* legacy project: does not use the new .csproj format*
 
@@ -46,6 +47,17 @@ an awesome native UI library for Unix, OSX and Windows
 
 ![Screenshot](DevZH.UI/screenshot.png)
 
+### GtkSharp
+
+http://www.mono-project.com/docs/gui/gtksharp/
+The project binds the gtk+ toolkit and assorted GNOME libraries, enabling fully
+native graphical Gnome application development using the Mono and .Net development frameworks.
+
+Requires GTK+ to be installed on the machine, instructions here:
+https://www.gtk.org/download/windows.php
+
+![Screenshot](GTKSharp/screenshot.png)
+
 
 ## Additional frameworks to explore
 
@@ -63,3 +75,12 @@ Even the "Getting started" projects are huge, see:
 https://github.com/xamarin/xamarin-forms-samples/tree/master/GettingStarted/XamarinFormsSample/XamarinFormsSample
 There is no "Net Core" app runtime available at this point, you can consume .NET Standard libraries, but the end
 application will run on Mono or full .NET, using UWP or WinRT, or one of the Xamarin Platforms (e.g. Xamarin.Android)
+
+### QTSharp
+
+https://github.com/ddobrev/QtSharp
+.NET Bindings for the well known cross platform UI library QT.
+Requires full .NET Framework or Mono, Requires QT to be installed on the machine.
+
+
+

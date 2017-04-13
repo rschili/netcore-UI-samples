@@ -8,6 +8,10 @@
     <StartupObject />
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+
   <ItemGroup>
     <Reference Include="PresentationFramework" />
     <Reference Include="PresentationCore" />
