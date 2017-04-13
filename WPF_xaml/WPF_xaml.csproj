@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>winexe</OutputType>
+    <TargetFramework>net462</TargetFramework>
+    <ApplicationIcon />
+    <OutputTypeEx>winexe</OutputTypeEx>
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="MyWindow.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="MyWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="System.Xaml" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\_Library\_Library.csproj" />
+  </ItemGroup>
+
+</Project>

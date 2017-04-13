@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>winexe</OutputType>
+    <TargetFramework>net462</TargetFramework>
+    <ApplicationIcon />
+    <OutputTypeEx>winexe</OutputTypeEx>
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\_Library\_Library.csproj" />
+  </ItemGroup>
+
+</Project>
