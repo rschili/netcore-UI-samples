@@ -1,5 +1,5 @@
 # netcore-UI-samples
-sample collection for various UI frameworks using .NET Core
+A collection of simple sample applications for various UI frameworks that consume a shared .NET Core library.
 
 ## Overview
 
