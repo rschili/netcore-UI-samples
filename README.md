@@ -1,5 +1,5 @@
 # netcore-UI-samples
-sample collection for various UI frameworks using .NET Core
+A collection of simple sample applications for various UI frameworks that consume a shared .NET Core library.
 
 ## Overview
 
@@ -57,7 +57,7 @@ native graphical Gnome application development using the Mono and .Net developme
 Requires GTK+ to be installed on the machine, instructions here:
 https://www.gtk.org/download/windows.php
 
-![Screenshot](GTKSharp/screenshot.png)
+![Screenshot](GtkSharp/screenshot.png)
 
 ### AspNetCore
 
