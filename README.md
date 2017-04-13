@@ -14,6 +14,39 @@ sample collection for various UI frameworks using .NET Core
 
 *\* legacy project: does not use the new .csproj format*
 
+
+## Details
+
+### Console
+Plain console application targetting .NET Core.
+![Screenshot](Console/screenshot.png)
+
+### WPF_cs
+A WPF application using the new csproj format, targetting the full .NET Framework (Windows specific).
+This version only uses C# code to initialize all UI controls.
+
+![Screenshot](WPF_cs/screenshot.png)
+
+### WPF_xaml
+A WPF application using the default VisualStudip template for WPF.
+Requires the older, bigger csproj project, uses XAML.
+
+![Screenshot](WPF_xaml/screenshot.png)
+
+### Windows Forms
+A legacy Windows Forms application using the VisualStudio designer.
+
+![Screenshot](WindowsForms/screenshot.png)
+
+### DevZH.UI
+https://github.com/noliar/DevZH.UI
+
+A simple binding (Experimental!!!) using .NET Core for https://github.com/andlabs/libui, which is
+an awesome native UI library for Unix, OSX and Windows 
+
+![Screenshot](DevZH.UI/screenshot.png)
+
+
 ## Additional frameworks to explore
 
 ### Avalonia
