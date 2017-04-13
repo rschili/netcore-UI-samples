@@ -56,7 +56,7 @@ native graphical Gnome application development using the Mono and .Net developme
 Requires GTK+ to be installed on the machine, instructions here:
 https://www.gtk.org/download/windows.php
 
-![Screenshot](GTKSharp/screenshot.png)
+![Screenshot](GtkSharp/screenshot.png)
 
 
 ## Additional frameworks to explore
