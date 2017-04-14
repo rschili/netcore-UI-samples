@@ -13,6 +13,7 @@ A collection of simple sample applications for various UI frameworks that consum
 | DevZH.UI | X | | | 3,5 MB | 3,6 MB |
 | GTKSharp | | X | X | 10,4 MB | - |
 | AspNetCore | X | | | - | - |
+| Avalonia | (X) | X | X | 21,5 MB | 15,7 MB |
 
 *\* legacy project: does not use the new .csproj format*
 
@@ -66,15 +67,20 @@ It's not exactly a UI framework, it requires a web browser to run.
 
 ![Screenshot](AspNetCore/screenshot.png)
 
-## Additional frameworks to explore
-
 ### Avalonia
 
 https://github.com/AvaloniaUI/Avalonia
+I used the official project template for VS2015, so this uses a legacy csproj project
+targetting the full .NET framework using xaml embedded resources. It is possible to
+run this on pure .NET Core, there are examples here: 
+https://github.com/AvaloniaUI/Avalonia/tree/master/samples/ControlCatalog.NetCore
 
-Supposed to work with .NET Core, but I wasn't able to get it running, yet. 
-It seems the Avalonia base nuget package requires Xamarin.Android and the
-Java SDK to be installed.
+I had to set the DataContext in Codebehind because I could not figure out how to make
+StaticResource or ResourceDictionary work at all.
+
+![Screenshot](Avalonia/screenshot.png)
+
+## Additional frameworks to explore
 
 ### Xamarin Forms
 

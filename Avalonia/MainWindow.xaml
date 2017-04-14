@@ -1,0 +1,8 @@
+﻿<Window xmlns="https://github.com/avaloniaui" Width="300" Height="200"
+        xmlns:local="clr-namespace:Avalonia">
+  <DockPanel>
+    <Button Height="30" DockPanel.Dock="Bottom" Command="{Binding CallNetCoreCommand}">Call .NET Core</Button>
+    <TextBlock Text="{Binding Text}" />
+  </DockPanel>
+
+</Window>
